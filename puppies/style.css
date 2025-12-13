@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+.unkempt-regular {
+  font-family: "Unkempt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unkempt-bold {
+  font-family: "Unkempt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+	font-family: unkempt-regular;
+	margin: 0;
+	background-color: lightblue;
+	font-weight: 400;
+}
+
+/* Website Links except the nav */
+
+a:link{
+	color: darkblue;
+}
+a:visited{
+	color: darkblue;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: lightblue;
+}
+
+header{
+	text-align: center;
+	padding: 15px;
+	font-size: 1.2em;
+	font-family: unkempt-regular;
+	font-weight: 700;
+
+}
+
+nav{
+	background-color: darkblue;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: 5px;
+	font-size: 1.5em;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 8px 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	padding: 5px;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{
+	color: white;
+}
+nav a:visited{
+	color: lightgray;
+}
+nav a:hover{
+	color: gray;
+}
+nav a:active{
+	color: cyan;
+}
+
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+blockquote{
+	background-color: #eeeeee;
+	border-left: 10px solid gray;
+	padding: 30px;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 10px 5px #888888;
+	border: black solid 2px;
+}
+
+footer{
+	border-top: darkblue 3px solid;
+	text-align: center;
+	background-color: lightblue;
+}
+
+.home-hero{
+	background-image:url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: darkgray;
+	text-shadow: 1.5px 1.5px black;
+	padding: 10px 10px 10px 10px;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 5px #888888;
+	border: black solid 3px;
+}
+
+.col-sm-4 h3{
+	margin: 10px 0px 0px 5px;
+}
+
+footer .fa{
+	padding: 10px;
+	color: darkblue;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+h1{
+	font-size:4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}

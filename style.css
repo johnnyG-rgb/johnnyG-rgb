@@ -1,0 +1,206 @@
+
+/* FOR FUTURE REFERENCE DON'T MAKE A DIV 
+STYLE WITH BOOTSTRAP. IT TENEDS TO BRAKE 
+STUFF*/
+
+/*h1 h2  orbitron*/
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Love+Ya+Like+A+Sister&family=Orbitron:wght@400..900&family=Ovo&display=swap');
+/*evey thing else  oxanium*/
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Love+Ya+Like+A+Sister&family=Orbitron:wght@400..900&family=Ovo&family=Oxanium:wght@200..800&display=swap');
+
+canvas{
+	border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    margin: 0px 0px 10px 0px;
+    background-image: url(images/game-background.jpg);
+}
+
+header{
+	text-align: center;
+}
+
+body{
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	text-align: left;
+}
+
+/* Website Links except the nav */
+
+a:link{
+	color: lightgray;
+}
+a:visited{
+	color: lightgray;
+}
+a:hover{
+	color: gray;
+}
+a:active{
+	color: white;
+}
+
+img{
+	display: block;
+	margin: auto 0;
+}
+
+nav{
+	background-color: #4700b3;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: 5px;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 8px 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	padding: 5px;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{
+	color: white;
+}
+nav a:visited{
+	color: lightgray;
+}
+nav a:hover{
+	color: gray;
+}
+nav a:active{
+	color: deeppink;
+}
+
+main{
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 10px;
+	font-family: "Oxanium";
+}
+
+footer{
+	border-top: 3px solid black;
+	text-align: left;
+	color: white;
+	background-image: url(images/background-2726440_1920.jpg);
+	background-size: cover;
+	padding: 5px;
+}
+
+footer p{
+	text-align: center;
+}
+
+h1, h2{
+	color: #4700b3;
+	font-family: "Orbitron";
+}
+
+div img{
+	margin: 20px 0 10px 0;
+	display: block;
+}
+
+button{
+	border-radius: 5px;
+	color: white;
+	background-color: #4700b3;
+}
+
+.home-hero{
+	background-image: url(images/background-2726440_1920.jpg);
+	background-size: cover;
+	border-bottom: 3px solid black;
+	text-align: center;
+}
+
+.home-hero h1{
+	font-family: "Orbitron";
+	color: white;
+	font-size: 60px;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	padding: 50px 0;
+	margin: 0;
+}
+
+.home-photo{
+	height: auto;
+	margin:auto;
+	display: block;
+}
+
+.logo{
+   margin: 0 auto;
+   display:block;
+   max-width: 300px;
+   padding: 20px;
+}
+
+.bottom{
+	text-align: center;
+}
+
+.myButton{
+	text-align: center;
+}
+
+.game-controls{
+	text-align: center;
+}
+
+.col-sm-4{
+	text-align: center;
+}
+
+.mobile{
+		display:none;
+}
+
+.project{
+	border: 5px solid black;
+	border-radius: 10px;
+}
+
+.rings{
+	padding: 20px 0 0 0;
+	margin: auto;
+}
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+h1{
+	font-size:4em;
+}
+
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+	
+	.desktop{
+		display:none;
+	}
+
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+
+}

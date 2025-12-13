@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Love+Ya+Like+A+Sister&family=Ovo&display=swap');
+
+.logo{
+	max-width: 275px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#home-hero{
+	background-image: url(images/guitars.jpg);
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#home-hero h1{
+	text-align: center;
+	color: #ff00fe;
+	text-shadow: 2px 2px 2px black;
+	margin: 0;
+	padding: 10px;
+	background-color: rgba(0,0,0,.5);
+}
+
+h2{
+	clear: both;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
+	color: white;
+	background-color: fuchsia;
+	border: solid black 2.5px;
+	font-family: "Google Sans Code", monospace;
+}
+
+table{
+  border-collapse: collapse;
+  margin: 0 auto;
+  border: 5px solid #00021f;
+}
+
+tr:nth-child(even){
+  background: #eeeee5;
+}
+
+th{
+  background-color: fuchsia;
+  color: white;
+  padding: 10px;
+  border-bottom: 5px solid black;
+}
+
+td{
+  border: 1px solid #223344;
+  padding: 10px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel]{
+  background-color: #eeeeee;
+}
+
+input[type=submit]{
+  background-color: yellow;
+  border-color: fuchsia;
+  border-radius: 10px;
+  display: block;
+  width: 200px;
+  height: 25px;
+  margin: 0 auto;
+}
+
+label{
+  float: left;
+  width: 8em;
+  padding-right: 1em;
+}
+
+input{
+  margin-bottom: 1em;
+  display: block;
+}
+
+input, textarea{
+  margin-bottom: 1em;
+  display: block;
+}
+
+textarea{
+  background-color: #eeeeee;
+}
+
+form{
+	border: 2.5px solid black;
+	padding: 7.5px;
+	background-color: lightgray;
+	max-width: 350px;
+	margin: 0 auto;
+}
+
+body{
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+}
+
+/* Website Links except the nav */
+
+a:link{
+	color: darkblue;
+}
+a:visited{
+	color: darkblue;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: lightblue;
+}
+
+header{
+	text-align: center;
+}
+
+nav{
+	background-color: fuchsia;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: 5px;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 8px 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	padding: 5px;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{
+	color: white;
+}
+nav a:visited{
+	color: lightgray;
+}
+nav a:hover{
+	color: gray;
+}
+nav a:active{
+	color: darkblue;
+}
+
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+footer{
+	border-top: darkblue 3px solid;
+	text-align: center;
+}
+
+img{
+	padding-bottom: 10px;
+}
+
+.video-container{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.video-container::after{
+	padding-top: 56.25%;
+	display: block;
+	content: '';
+}
+
+.video-container iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.float-right{
+	float: right;
+	max-width: 20%;
+	height: auto;
+	margin-left: 30px;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+h1{
+	font-size:4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+}
+
+.float-right{
+	max-width: 30%;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+
+	.float-right{
+		max-width: 40%;
+	}
+}

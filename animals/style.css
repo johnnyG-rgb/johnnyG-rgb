@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+}
+
+/* Website Links except the nav */
+
+a:link{
+	color: darkblue;
+}
+a:visited{
+	color: darkblue;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: lightblue;
+}
+
+header{
+	text-align: center;
+	margin: 10px;
+}
+
+nav{
+	background-color: darkblue;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: 5px;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 8px 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	padding: 5px;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{
+	color: white;
+}
+nav a:visited{
+	color: lightgray;
+}
+nav a:hover{
+	color: gray;
+}
+nav a:active{
+	color: deeppink;
+}
+
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+footer{
+	border-top: darkblue 3px solid;
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+}
+
+p{
+	padding: 10px 0px 0px 0px;
+}
+
+h1{
+	font-family: "Stardos Stencil";
+}
+
+.stardos-stencil-regular {
+  font-family: "Stardos Stencil", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.stardos-stencil-bold {
+  font-family: "Stardos Stencil", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hero-image{
+	background-size: cover;
+	border-radius: 10px;
+	border: black solid 5px;
+}
+
+.fa{
+	padding: 10px 0px 0px 20px;
+	color: darkblue;
+}
+
+.col-sm-6{
+	text-align: left;
+}
+
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 5px 12px 12px 2px;
+    border-radius: 10px;
+    border: black solid 2px;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+    border-radius: 10px;
+    border: black solid 5px;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+h1{
+	font-size:4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
